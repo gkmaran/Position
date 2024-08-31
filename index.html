@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <button onclick="showmodal()">About me</button>
+    <div id="modal1" class="modal-wrapper">
+        <div class="modal">
+        <h2>I'm gobi <button onclick="closemodal()">close</button></h2>
+        <p>Iam gradute UG student ,now i learn full stack web development in learnzdevelopment academy. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta delectus vitae corrupti dolor totam enim cum eaque porro laborum, veritatis architecto aperiam, in magnam nobis hic ex suscipit, possimus vel?</p>
+        </div>
+    </div>
+    <script>
+        function showmodal(){
+            document.getElementById("modal1").style.display ="block"
+        }
+        function closemodal(){
+            document.getElementById("modal1").style.display ="none"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.modal-wrapper{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background: linear-gradient(rgba(0, 0, 0, 0.044),black);
+}
+.modal{
+    border: solid 2px;
+    width: 50%;
+    margin: auto;
+    margin-top: 6rem;
+    padding: 15px;
+    position: relative;
+    box-shadow: 1px 1px 30px;
+}
+.modal button{
+    font-size: 15px;
+    border: none;
+    border-radius: 1rem;
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 10px;
+}
